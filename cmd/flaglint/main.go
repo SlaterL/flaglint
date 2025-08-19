@@ -40,7 +40,7 @@ func main() {
 	if err != nil {
 		fmt.Println("ERROR")
 	}
-	if scratch {
+	if !scratch {
 		os.Exit(1)
 	}
 	os.Exit(0)
